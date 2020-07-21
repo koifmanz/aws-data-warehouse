@@ -21,5 +21,11 @@ The database scheme is star-scheme, to improve the queries logic and performance
 
 Songplays table is the fact table, while the artists, songs and users are dimension tables.
 
+___
+## Running the ETL procces
 
 
+1. Create on *AWS* the relvant clusters. 
+2. Update *dwh.cfg* file with your aws info, be sure not to share the password with anyone.
+3. Run *create_tables.py*
+4. Run *etl.py*
